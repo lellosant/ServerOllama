@@ -1,4 +1,0 @@
-port=8080
-model=llama3
-ollama_endpoint=http://localhost:11434/api/generate
-timeout=30

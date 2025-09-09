@@ -3,6 +3,7 @@ package it.uniroma2.Ollama.server;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
+import spark.Spark;
 
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -33,10 +34,10 @@ public class OllamaServer {
     }
 
     public void start() {
-        port(port); // Imposta la porta del server
+        Spark.port(port); // Imposta la porta del server
 
         // Endpoint POST /generate
-        post("/generate", (req, res) -> {
+        Spark.post("/generate", (req, res) -> {
 
             res.type("application/json");
             // Inizio cronometro
@@ -49,7 +50,6 @@ public class OllamaServer {
             //System.out.println("Headers:");
             //req.headers().forEach(h -> System.out.println("  " + h + ": " + req.headers(h)));
             //System.out.println("Body: " + req.body());
-            System.out.println("=======================");
             try {
                 // Legge il JSON ricevuto
                 JsonObject requestJson = gson.fromJson(req.body(), JsonObject.class);
@@ -77,7 +77,7 @@ public class OllamaServer {
 
                 payload.addProperty("model", requestModel);
                 payload.addProperty("prompt", prompt);
-
+                payload.addProperty("stream", false); // <-- disabilita streaming
                 HttpRequest httpRequest = HttpRequest.newBuilder()
                         .uri(URI.create(ollamaEndpoint))
                         .timeout(Duration.ofSeconds(timeout))
