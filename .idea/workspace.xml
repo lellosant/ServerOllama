@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e408e994-976a-41bb-98cf-d51d1e804921" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jetty-http-9.4.48.v20220622.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jetty-io-9.4.48.v20220622.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jetty-server-9.4.48.v20220622.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jetty-servlet-9.4.48.v20220622.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jetty-util-9.4.48.v20220622.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-api-2.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-simple-2.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spark-core-2.9.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server Ollama.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Server Ollama.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gson-2.11.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gson-2.11.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/uniroma2/Ollama/server/OllamaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/uniroma2/Ollama/server/OllamaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/uniroma2/Ollama/server/OllamaServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/uniroma2/Ollama/server/OllamaServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/uniroma2/Ollama/server/config.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="32TuQgkOYm3aK0l8e1YOu8T8izE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/leona/IdeaProjects/Server Ollama",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\leona\IdeaProjects\Server Ollama\lib" />
+      <recent name="C:\Users\leona\IdeaProjects\Server Ollama" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Server Ollama" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e408e994-976a-41bb-98cf-d51d1e804921" name="Changes" comment="" />
+      <created>1757456869749</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757456869749</updated>
+    </task>
+    <servers />
+  </component>
+</project>
