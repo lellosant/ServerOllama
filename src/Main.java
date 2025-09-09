@@ -1,5 +1,5 @@
-import it.uniroma2.Ollama.server.OllamaConfig;
-import it.uniroma2.Ollama.server.OllamaServer;
+import it.uniroma2.ollama.config.OllamaConfig;
+import it.uniroma2.ollama.server.OllamaServer;
 
 import java.io.File;
 

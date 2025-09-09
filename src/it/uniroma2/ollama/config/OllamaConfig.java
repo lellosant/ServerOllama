@@ -1,4 +1,4 @@
-package it.uniroma2.Ollama.server;
+package it.uniroma2.ollama.config;
 
 
 import java.io.FileInputStream;
